@@ -49,7 +49,14 @@ namespace c__basic_1
             finally
             {
                 Console.WriteLine("done");
-            #endregion
+#endregion
+                #region quesion 5
+                //5
+                int Pages = 300;
+                double pagesAsDouble = Pages;
+
+                Console.WriteLine(pagesAsDouble);
+                #endregion
             }
         }
     }
