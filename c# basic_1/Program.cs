@@ -49,7 +49,7 @@ namespace c__basic_1
             finally
             {
                 Console.WriteLine("done");
-            #endregion
+#endregion
                 #region quesion 5
                 //5
                 //int Pages = 300;
@@ -71,17 +71,26 @@ namespace c__basic_1
                 #endregion
                 #region quesion 8
                 //8
-                string yearText = "2023";
-                int year = int.Parse(yearText);
-                Console.WriteLine(year);
+                //string yearText = "2023";
+                //int year = int.Parse(yearText);
+                // Console.WriteLine(year);
 
-                string badtext = "abc";
-                if (int.TryParse(badtext, out int namber))
-                    Console.WriteLine(namber);
-                else
-                {
-                    Console.WriteLine("invalid number");
-                }
+                //string badtext = "abc";
+                //if (int.TryParse(badtext, out int namber))
+                //  Console.WriteLine(namber);
+                // else
+                // {
+                //  Console.WriteLine("invalid number");
+                // }
+
+                #endregion
+                #region quesion 9
+                //9..
+                int Pages = 464;
+                string pagestext = pages.ToString();
+                Console.WriteLine(pagestext);
+                Console.WriteLine(pagestext.GetType());
+
 
                 #endregion
             }
