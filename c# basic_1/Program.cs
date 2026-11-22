@@ -20,13 +20,19 @@ namespace c__basic_1
             //Console.WriteLine(obj.ToString());
             #endregion
             #region quesion 2
-            Book book = new Book { title= "clean code", pages = 200 };
-           
-            Console.WriteLine(book.ToString());
-            Console.WriteLine(book.Equals(book));
-            Console.WriteLine(book.GetHashCode());
-            Console.WriteLine(book.GetType());
-            
+
+            /// Book book = new Book { title= "clean code", pages = 200 };
+
+            /// Console.WriteLine(book.ToString());
+            ///Console.WriteLine(book.Equals(book));
+            ///Console.WriteLine(book.GetHashCode());
+            ///Console.WriteLine(book.GetType());
+
+            #endregion
+            #region quesion 3
+            //3
+            int pages = 464;
+            Console.WriteLine(pages);
             #endregion
 
         }
