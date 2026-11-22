@@ -10,5 +10,10 @@ namespace c__basic_1
     {
         public string title { get; set; } = "";
         public int pages { get; set; }
+        public override string ToString()
+        {
+             return $"Book title : {title}, with pages {pages}";
+        }
+
     }
 }

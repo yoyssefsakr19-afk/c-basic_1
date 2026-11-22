@@ -15,10 +15,20 @@ namespace c__basic_1
             #region quesion 1
             //1:
             // solve task 1 
-            Book book = new Book { title= "clean code", pages = 200 };
-            object obj = book;
-            Console.WriteLine(obj.ToString());
+            //Book book = new Book { title= "clean code", pages = 200 };
+            //object obj = book;
+            //Console.WriteLine(obj.ToString());
             #endregion
+            #region quesion 2
+            Book book = new Book { title= "clean code", pages = 200 };
+           
+            Console.WriteLine(book.ToString());
+            Console.WriteLine(book.Equals(book));
+            Console.WriteLine(book.GetHashCode());
+            Console.WriteLine(book.GetType());
+            
+            #endregion
+
         }
     }
 }
