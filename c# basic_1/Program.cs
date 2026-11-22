@@ -134,10 +134,17 @@ namespace c__basic_1
 
             #endregion
             #region quesion 14
-            Console.WriteLine(title ?? "Untitled");
-            title = "Untitled";
+            //Console.WriteLine(title ?? "Untitled");
+            //title = "Untitled";
 
-            Console.WriteLine(title);
+            //Console.WriteLine(title);
+            #endregion
+            #region QUESION 15
+            //Q15
+            string name = "youssef";
+
+            string confirmedName = name;
+            Console.WriteLine(confirmedName);
             #endregion
 
         }
