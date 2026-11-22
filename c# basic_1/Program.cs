@@ -52,10 +52,16 @@ namespace c__basic_1
 #endregion
                 #region quesion 5
                 //5
-                int Pages = 300;
-                double pagesAsDouble = Pages;
+                //int Pages = 300;
+                //double pagesAsDouble = Pages;
 
-                Console.WriteLine(pagesAsDouble);
+                //Console.WriteLine(pagesAsDouble);
+                #endregion
+                #region quesion6    
+                // 6
+                double price = 49.99;
+                int priceAsInt =(int)price;
+                Console.WriteLine(priceAsInt);
                 #endregion
             }
         }
