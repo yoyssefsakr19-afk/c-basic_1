@@ -34,7 +34,23 @@ namespace c__basic_1
             int pages = 464;
             Console.WriteLine(pages);
             #endregion
-
+            #region quesion 4
+            int a = 10;
+            int b = 0;
+            try
+            {
+                int result = a / b;
+                Console.WriteLine(result);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("can not divided by zero ");
+            }
+            finally
+            {
+                Console.WriteLine("done");
+            #endregion
+            }
         }
     }
 }
