@@ -59,9 +59,15 @@ namespace c__basic_1
                 #endregion
                 #region quesion6    
                 // 6
-                double price = 49.99;
-                int priceAsInt =(int)price;
-                Console.WriteLine(priceAsInt);
+                //double price = 49.99;
+                //int priceAsInt =(int)price;
+                //Console.WriteLine(priceAsInt);
+                #endregion
+                #region quesion 7
+                //7
+                string pagesText = "464";
+                Console.WriteLine(pagesText);
+
                 #endregion
             }
         }
