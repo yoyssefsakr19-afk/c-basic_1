@@ -86,13 +86,24 @@ namespace c__basic_1
                 #endregion
                 #region quesion 9
                 //9..
-                int Pages = 464;
-                string pagestext = pages.ToString();
-                Console.WriteLine(pagestext);
-                Console.WriteLine(pagestext.GetType());
+                //int Pages = 464;
+                //string pagestext = pages.ToString();
+                //Console.WriteLine(pagestext);
+                //Console.WriteLine(pagestext.GetType());
 
 
                 #endregion
+                #region quesion 10
+                int copies = 100;
+
+                object boxed = copies;
+                Console.WriteLine(boxed);
+
+                int unboxed =(int)boxed;
+                Console.WriteLine(unboxed);
+
+                #endregion
+
             }
         }
     }
