@@ -124,14 +124,20 @@ namespace c__basic_1
             #endregion
             #region quesion 13
             //Q13
-            Book book = null;
+            //Book book = null;
 
-            string title = book.title;
+            //string title = book.title;
+            //Console.WriteLine(title);
+
+
+
+
+            #endregion
+            #region quesion 14
+            Console.WriteLine(title ?? "Untitled");
+            title = "Untitled";
+
             Console.WriteLine(title);
-                
-
-
-
             #endregion
 
         }
